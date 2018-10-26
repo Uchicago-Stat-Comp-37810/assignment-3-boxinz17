@@ -24,6 +24,8 @@ def is_divisible(m, n):
 print(is_divisible(10, 5))  # This should return True
 print(is_divisible(18, 7))  # This should return False
 print(is_divisible(42, 0))  # What should this return? Should cause an error
+
+## More tests
 print(is_divisible(3, 1.1))  # Should cause an error
 print(is_divisible(9, -3))  # Should return true
 # ********** Exercise 2 ********** 
