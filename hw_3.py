@@ -17,11 +17,7 @@ def is_divisible(m, n):
     elif n == 0:
         return "Error: divisor should not be zero!", n
     else:
-        if (m % n) == 0:
-            return True
-        else:
-        
-            return False
+        return (m % n) == 0
 
 # Test cases for is_divisible
 ## Provided for you... uncomment when you're done defining your function
